@@ -1,0 +1,130 @@
+body{
+  background-color:#7a0bc0;
+  color: white;
+}
+.container-fluid{
+  padding: 2% 15%;
+
+
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'montserrat'
+}
+a{
+  color: black
+}
+.nav-link{
+  color: black;
+  font-size: 1.6rem
+}
+#navbar{
+  background-color: #7a0bc0;
+  animation: 3s ease-in 1s !important;
+}
+.card-body{
+  font-family: 'montserrat';
+  font-size: 1.3rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 3rem;
+}
+  /* next color #f4a261
+  #efb366
+  #e9c46a */
+.colored{
+  color: #fff;
+  background-color: #7a0bc0;
+}
+.greeting{
+  font-style: 'montserrat'
+}
+.about{
+  text-align: center;
+  align-items: center;
+
+
+}
+.what-i-do{
+  text-align: center;
+  align-items: center;
+}
+.what-i-do-list{
+  text-align: left;
+  align-items: left;
+}
+.lead{
+  line-height: 2;
+  font-family: 'montserrat';
+  font-size:1.7rem;
+  margin: 50px 0;
+}
+.anime{
+  padding-bottom: 100px
+}
+.skills{
+  color: white;
+  padding-bottom: 60px;
+  background-image: url("images/hero-devices.svg");
+
+}
+.heroDev{
+  width: 70%;
+  height: 500px;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 50px
+}
+.skills-title{
+  font-size:2rem;
+  font-family: 'montserrat';
+  line-height: 2;
+  margin: 40px 0px 100px
+}.he{
+  margin: 40px 0;
+}
+.one{
+  font-size:1.4rem;
+  font-family: 'montserrat';
+}
+.two{
+  font-size:1.4rem;
+  font-family: 'montserrat';
+
+}
+.three{
+  font-size:1.4rem;
+  font-family: 'montserrat';
+
+}
+.four{
+  font-size:1.4rem;
+  font-family: 'montserrat';
+}
+.animate{
+  transition-timing-function: ease-in-out;
+}
+.anime{
+  animation-duration: 1s;
+  animation-name: slidein;
+  /* animation-iteration-count: infinite; */
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from{
+    margin-top: 100%;
+    width: 100%;
+  }
+  to{
+    margin-top: 0px;
+    width: 100%
+  }
+}
+@media (max-width: 1028px) {
+
+  .one,.two,.lead,h4,h5,h6{
+    font-family: 'montserrat';
+    font-size: 1.2rem;
+  }
+}
